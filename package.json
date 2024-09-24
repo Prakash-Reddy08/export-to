@@ -1,0 +1,24 @@
+{
+  "name": "export-to",
+  "version": "1.0.0",
+  "description": "A utility for controlled module exports in Node.js",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "export",
+    "module",
+    "control",
+    "access"
+  ],
+  "author": "prakash mettu",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
